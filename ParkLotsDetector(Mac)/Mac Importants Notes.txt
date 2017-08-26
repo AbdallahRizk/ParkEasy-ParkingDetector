@@ -1,0 +1,61 @@
+Important commands on the terminal(Mac):
+
+
+1- Java Must be installed.
+
+2- ls (To view the current file files).
+
+3- cd (without and additions to go back to the default file).
+
+4- cd filename (To access the file).
+
+5- once you locate the jar file past the following command in the terminal:
+
+java -XstartOnFirstThread -jar parkesy-final.jar
+
+you can not change anything in this command except the last part which is parkesy-final.jar it should be based on the application name in case you change it in future.
+
+
+
+How to Use The Application(On Mac).
+
+1- First locate button (set dll) then choose the attached file with the application (Set_dll(Mac).dylib).
+
+2- Then locate the button (open) and choose the selective map.
+
+3- Then locate the button (User Input) and enter the required inputs.
+
+4- Then locate (initiate recognition).
+
+5- Then locate (Open in new window).
+
+6- Then choose the parking lot one by one to change the required information.
+
+7- In each parking lot after modifying its information you required to press save.
+
+8- The require information to be change every time are: Parking lot no
+
+							   Entrance Lat
+
+							   Entrance Lng
+
+  							   Navigation Point ID
+
+Information need to be change often: Availability status (it will be by default av)
+				       Parking lot type    (it will be by default normal)
+				       Mall ID 		    (itÕs one time user input)
+				       Level 		    (itÕs one time user input)
+
+
+
+
+The Application meant to detect all the parking lot in rectangle shape any other shapes can not be detect it.
+The map must be clear with good quality bad quality might not be working well.
+
+The outputs will be located in the same location of the jar file.
+There will be several outputs not important just for testing purpose. The actual outputs are: Coordinates_original.csv (With the actual x , y coordinates)
+												   Coordinates_result.csv    (Applied the converter equation)
+ 
+
+The application still in testing stage so it is not 100% with no bugs or errors. 
+In case you found any error during this month please contact me immediately via email ( abm.rizk@gmail.com )
